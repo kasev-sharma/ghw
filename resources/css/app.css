@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar for a polished look */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #F7FAFC;
+}
+::-webkit-scrollbar-thumb {
+    background: #6E7C8D;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #008B8C;
+}
