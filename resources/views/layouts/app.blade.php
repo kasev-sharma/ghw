@@ -14,8 +14,12 @@
 
     <style>[x-cloak] { display: none !important; }</style>
 </head>
-<body class="font-body text-neutral-dark bg-white antialiased" x-data="{ contactScrollSubject: '' }">
-
+<body class="font-body text-neutral-dark bg-white antialiased" 
+      x-data="{ 
+          mobileMenuOpen: false, 
+          contactScrollSubject: '',
+          consultationModalOpen: false 
+      }"></body>
     <!-- Header / Nav -->
     @include('layouts.navigation')
 
