@@ -11,20 +11,20 @@ export default {
         extend: {
             colors: {
                 primary: {
-                    DEFAULT: '#0D3C65', // Dark Blue (Header, Buttons)
-                    hover: '#0B3254',   // Darker shade for hover
+                    DEFAULT: '#0D3C65', // Dark Blue
+                    hover: '#0B3254',
                 },
                 secondary: {
-                    DEFAULT: '#008B8C', // Teal (Accents, Icons)
-                    hover: '#007273',   // Darker teal for hover
+                    DEFAULT: '#008B8C', // Teal
+                    hover: '#007273',
                 },
                 accent: {
-                    DEFAULT: '#027752', // Green (Laurel leaves)
+                    DEFAULT: '#027752', // Green
                 },
                 neutral: {
-                    light: '#F7FAFC',   // Light Background
-                    grey: '#6E7C8D',    // Secondary Text
-                    dark: '#2E3A4C',    // Body Text
+                    light: '#F7FAFC',
+                    grey: '#6E7C8D',
+                    dark: '#2E3A4C',
                 },
             },
             fontFamily: {
@@ -33,12 +33,7 @@ export default {
             },
             container: {
                 center: true,
-                padding: {
-                    DEFAULT: '1rem',
-                    sm: '2rem',
-                    lg: '4rem',
-                    xl: '5rem',
-                },
+                padding: '1rem',
             },
         },
     },
